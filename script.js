@@ -1,7 +1,9 @@
+
 //your JS code here. If required.
-let ip=document.getElementById("frame")
+let fname = document.getElementById("fname")
 
+fname.addEventListener("blur", () => {
+	let temp = fname.value.toUpperCase();
 
-ip.addEventListner("blur",()=>{
-	ip.value=ip.toUpperCase();
+	fname.value = temp
 })
