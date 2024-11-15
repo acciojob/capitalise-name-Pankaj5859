@@ -3,5 +3,5 @@ let ip=document.getElementById("frame")
 
 
 ip.addEventListner("blur",()=>{
-	ip.value=ip.toUpperCase()
+	ip.value=ip.toUpperCase();
 })
